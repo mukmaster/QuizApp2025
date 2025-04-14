@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">QuizApp2025</string>
+    <string name="str_question1">Question 1</string>
+    <string name="str_question2">Question 2</string>
+    <string name="str_question3">Question 3</string>
+    <string name="str_question4">Question 4</string>
+    <string name="str_question5">Question 5</string>
+    <string name="str_question6">Question 6</string>
+    <string name="str_correct_answers">Correct Answers:</string>
+    <string name="str_test_your_knowledge">Test Your Knowledge</string>
 </resources>
