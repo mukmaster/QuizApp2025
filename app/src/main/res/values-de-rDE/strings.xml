@@ -9,4 +9,11 @@
     <string name="str_question6">Frage 6</string>
     <string name="str_correct_answers">Richtige Antworten:</string>
     <string name="str_test_your_knowledge">Teste dein Wissen</string>
+    <string name="str_q1text">Wie heißt die aktuelle Version von Android?</string>
+    <string name="str_rb1">Vanilla Pudding</string>
+    <string name="str_rb2">Vanilla Icecream</string>
+    <string name="str_rb3">Vienna Fingers</string>
+    <string name="str_rb4">Valrhona Chocolate</string>
+    <string name="str_rb5">Vanilla Cupcake</string>
+    <string name="str_checkin1">Bestätigen</string>
 </resources>

@@ -8,4 +8,11 @@
     <string name="str_question6">Question 6</string>
     <string name="str_correct_answers">Correct Answers:</string>
     <string name="str_test_your_knowledge">Test Your Knowledge</string>
+    <string name="str_q1text">What is the name of the latest Android Version?</string>
+    <string name="str_rb1">Vanilla Pudding</string>
+    <string name="str_rb2">Vanilla Icecream</string>
+    <string name="str_rb3">Vienna Fingers</string>
+    <string name="str_rb4">Valrhona Chocolate</string>
+    <string name="str_rb5">Vanilla Cupcake</string>
+    <string name="str_checkin1">Check In</string>
 </resources>
