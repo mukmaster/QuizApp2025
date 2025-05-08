@@ -8,4 +8,5 @@ Empty Views Activity ausgewählt
 # Commit 2: Portrait-Layout für MainActivity erstellt
 Strings in Englisch, aber nicht mehr hard-coded, sondern in strings.xml
 
-
+# Commit 3: Landscape-Layout für MainActivity erstellt
+Create Landscape-Qualifier und im Emulator (Landscape-Modus) getestet
