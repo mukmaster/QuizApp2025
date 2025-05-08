@@ -8,12 +8,116 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/str_test_your_knowledge"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        app:layout_constraintVertical_bias="0.16000003">
+
+        <Button
+            android:id="@+id/btn_question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="12sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="@string/str_question1" />
+
+        <Button
+            android:id="@+id/btn_question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="12sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="@string/str_question2" />
+
+        <Button
+            android:id="@+id/btn_question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="12sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="@string/str_question3" />
+
+        <Button
+            android:id="@+id/btn_question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="12sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="@string/str_question4" />
+
+        <Button
+            android:id="@+id/btn_question5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="12sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="@string/str_question5" />
+
+        <Button
+            android:id="@+id/btn_question6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="12sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="@string/str_question6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.060000002">
+
+        <TextView
+            android:id="@+id/tv_correctanswers"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/str_correct_answers" />
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="3"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

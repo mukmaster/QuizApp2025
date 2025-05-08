@@ -5,3 +5,7 @@ Android Studio MeerKat 2024.3.1, SDK: API 35 = Android 15, Rev. 2,  VanillaIceCr
 Minimum SDK: API 224 = Android 7.0, Nougat
 Empty Views Activity ausgewählt
 
+# Commit 2: Portrait-Layout für MainActivity erstellt
+Strings in Englisch, aber nicht mehr hard-coded, sondern in strings.xml
+
+
