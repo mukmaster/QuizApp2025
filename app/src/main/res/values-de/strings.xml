@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizApp2025</string>
+    <string name="str_question1">Frage 1</string>
+    <string name="str_question2">Frage 2</string>
+    <string name="str_question3">Frage 3</string>
+    <string name="str_question4">Frage 4</string>
+    <string name="str_question5">Frage 5</string>
+    <string name="str_question6">Frage 6</string>
+    <string name="str_correct_answers">Richtige Antworten</string>
+    <string name="str_test_your_knowledge">Teste dein Wissen</string>
+</resources>
