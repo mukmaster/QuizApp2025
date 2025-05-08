@@ -13,3 +13,12 @@ Create Landscape-Qualifier und im Emulator (Landscape-Modus) getestet
 
 ## Commit 4: Lokalisierung für Deutsch durchgeführt
 Im Translation Editor: Create Locale, dann im Emulator getestet
+
+## Commit 5: Q1Activity für Frage 1 angelegt
+Neue Empty Views Activity mit RadioButtonGroup erstellt
+In MainActivity: Eventhandler für Question1-Button angelegt (Aufruf von Q1Activity)
+Q1Activity: Radiobuttons und CheckIn-Button noch ohne Funktion
+
+## Commit 6: Auswertelogik für Q1Activity erstellt
+Feedback-Activity zur Anzeige des Feedbacks erstellt
+Q1Activity wertet RadioButtons aus und verwendet Helper für das Feedback

@@ -38,6 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:lineSpacingExtra="12sp"
+            android:onClick="btn1_clicked"
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:text="@string/str_question1" />
