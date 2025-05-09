@@ -54,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
             activityClass = Q4Activity.class;
         else if (buttonId == R.id.btn_question5)
             activityClass = Q5Activity.class;
+        else if (buttonId == R.id.btn_question6)
+            activityClass = Q6Activity.class;
         else
             // Es wurde ein nicht belegter Button angeklickt -> nicht reagieren
             return;

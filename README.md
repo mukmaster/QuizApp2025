@@ -41,3 +41,7 @@
 
 ## Commit 10: Frage 5 (NumberPicker)
 + Q5Activity erhält einen "NumberPicker" (Zahlenrad), das in onCreate initialisiert wird
+
+## Commit 11: Frage 6 (Auswahl aus einer Liste)
++ Q6Activity erhält eine ListView, die mit willkürlichen Namen gefüllt wird
++ Der Eventhandler ist diesmal als Instanz einer anonymen Klasse realisiert
