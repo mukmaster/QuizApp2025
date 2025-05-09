@@ -60,4 +60,4 @@ aus einer Datenbank bzw. über eine Backend-API.
 
 Dennoch: Viel Spaß und gute Lernerfahrungen mit dieser App!
 
-Helmut Roderus, Mai 2025
+Helmut Roderus, Mai 2025 
