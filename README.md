@@ -1,4 +1,10 @@
 # QuizApp2025 - Schritt für Schritt Beispiel
+Dieses Projekt, eine sehr einfach gehaltene Quiz-App für Android, wurde für den Unterricht im Fach "Entwicklung mobiler Applikationen"
+im Studiengang "Multimedia und Kommunikation" entwickelt. Mit seiner Hilfe sollen die wichtigsten Grundkonzepte einer in Java programmierten 
+App demonstriert werden. Begleitend dazu gibt es ein Folien-Handout mit weitergehenden Erklärungen. Der Sourcecode wurde im Mai 2025
+überarbeitet und teilweise aktualisiert.
+
+Jedes Commit entspricht einem Abschnitt in den Schulungsunterlagen, so dass die App Schritt für Schritt wächst und diese Entwicklung dennoch leicht nachvollzogen werden kann.
 
 ## Commit 1: Projekt mit Android Studio anlegen
 + Android Studio MeerKat 2024.3.1, SDK: API 35 = Android 15, Rev. 2,  VanillaIceCream
