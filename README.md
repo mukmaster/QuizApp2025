@@ -45,3 +45,19 @@
 ## Commit 11: Frage 6 (Auswahl aus einer Liste)
 + Q6Activity erhält eine ListView, die mit willkürlichen Namen gefüllt wird
 + Der Eventhandler ist diesmal als Instanz einer anonymen Klasse realisiert
+
+## Was noch offen ist (und bleibt)
++ Das alte Quiz-Beispiel wurde nicht vollständig in die QuizApp2025 portiert. Einige Ansätze der 
+alten App waren veraltet und inkompatibel mit aktuellen Android-Versionen (ActionBar, Settings). 
+Andere zu weit hergeholt und zu kompliziert (SQL-Datenbank für Nutzungszeiten) und daher weggelassen. 
++ Die ActionBar wurde nicht realisiert, also gibt es kein About, keinen Schwierigkeitsgrad etc.
++ Eine dauerhafte Speicherung des Scores mit der Preferences-API wurde implementiert
++ Das Projekt enthält bestimmt noch einige kleinere Bugs oder zumindest "unrunde" Stellen im Sourcecode.
+
+Alles was jetzt noch nicht funktioniert oder noch fehlt bitte gerne selbst umsetzen. Richtig schick
+wäre z.B. eine generische Implementierung einer "Fragenactivity" oder der Abruf von Inhalten für Fragen
+aus einer Datenbank bzw. über eine Backend-API.
+
+Dennoch: Viel Spaß und gute Lernerfahrungen mit dieser App!
+
+Helmut Roderus, Mai 2025
