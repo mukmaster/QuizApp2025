@@ -5,9 +5,16 @@ import android.content.Intent;
 
 public class Helper {
 
+	// Öffentliches (!!) Datenfeld für das Speichern des Punktestands
+	public static int points = 0;
+
 	/**
-	 * Wird von den Frage-Activities aufgerufen, um ein Feedback für den User zu erzeugen.
-	 * 
+	 * Wird von den Frage-Activities aufgerufen, um ein Feedback f�r den User zu
+	 * erzeugen. Wenn die Antwort korrekt war, wird ein zuf�llig ausgew�hltes
+	 * positives Feedback erstellt. Die erworbene Punktzahl wird in den
+	 * Punktetext an die Stelle der Raute eingesetzt: z.B. in
+	 * "Sie haben # Punkte gewonnen".
+	 *
 	 * @param isAnswerCorrect
 	 *            true, wenn die Antwort richtig war, sonst false
 	 * @param points
@@ -19,22 +26,40 @@ public class Helper {
 		/*
 		 * Achtung: Die Methode ist eine reine Hilfsmethode (eine
 		 * "Zusammenfassung" von mehrfach gebrauchten Befehlen. Die Klasse
-		 * besitzt keine Datenfelder und die Methode kann unabhängig von einer
+		 * besitzt keine Datenfelder und die Methode kann unabh�ngig von einer
 		 * Instanz dieser Klasse verwendet werden. Daher wurde sie "static" definiert.
 		 */
 		String feedback, pointstr;
 		if (isAnswerCorrect) {
-			feedback = activity.getString(R.string.positive_feedback);
-			pointstr = activity.getString(R.string.positive_score);
-		}
-		else {
-			feedback = activity.getString(R.string.negative_feedback);
+			// Die positiven Antworten werden durch den Zufallsgenerator
+			// variiert
+			if (Math.random() < 0.5)
+				/*
+				 * Auf die Activity-Methoden kann nur im Kontext der Activity
+				 * zugegriffen werden. Daher haben wir diese der
+				 * feedback-Methode als Parameter "activity" mitgegegeben.
+				 */
+				feedback = activity.getString(R.string.positive_feedback1);
+			else
+				feedback = activity.getString(R.string.positive_feedback2);
+			pointstr = activity.getString(R.string.positive_score).replace("#",
+					points + "");
+		} else {
+			if (Math.random() < 0.5)
+				feedback = activity.getString(R.string.negative_feedback1);
+			else
+				feedback = activity.getString(R.string.negative_feedback2);
 			pointstr = activity.getString(R.string.negative_score);
+			points = 0;
 		}
-		/* Der Intent zum Aufruf der FeedbackActivity wird erzeugt */
+		/*
+		 * Der Intent zum Aufruf der FeedbackActivity wird erzeugt
+		 */
 		Intent intent = new Intent(activity, FeedbackActivity.class);
-
-		/* Als Extra-Information bekommt der Intent noch die Feedback-Texte und die Punkte mit */
+		/*
+		 * Als Extra-Information bekommt der Intent noch die Feedback-Texte und
+		 * die Punkte mit
+		 */
 		intent.putExtra("fb", feedback);
 		intent.putExtra("pstr", pointstr);
 		intent.putExtra("pts", points);

@@ -11,18 +11,20 @@
 
     <string name="title_activity_q1">Question 1</string>
     <string name="q1_text">What is the name for Android Version 4.1?</string>
-    <string name="q1_answer1">Honeycomb</string>
-    <string name="q1_answer2">Ice Cream Sandwich</string>
-    <string name="q1_answer3">Jelly Bean</string>
-    <string name="q1_answer4">KitKat</string>
-    <string name="q1_answer5">Lollipop</string>
+    <string name="q1_answer1" translatable="false">Honeycomb</string>
+    <string name="q1_answer2" translatable="false">Ice Cream Sandwich</string>
+    <string name="q1_answer3" translatable="false">Jelly Bean</string>
+    <string name="q1_answer4" translatable="false">KitKat</string>
+    <string name="q1_answer5" translatable="false">Lollipop</string>
     <string name="q1_continue">Check in</string>
 
 
     <string name="backbtn_string">Next Question</string>
-    <string name="positive_feedback">Excellent! Right Answer.</string>
-    <string name="negative_feedback">Wrong Answer.</string>
-    <string name="positive_score">You just earned 1 point.</string>
+    <string name="positive_feedback1">Excellent! Right Answer.</string>
+    <string name="negative_feedback1">Wrong Answer.</string>
+    <string name="positive_feedback2">Wow, you got it!</string>
+    <string name="negative_feedback2">Sorry, try again later.</string>
+    <string name="positive_score">You just earned # point(s).</string>
     <string name="negative_score">No point this time.</string>
 
 </resources>

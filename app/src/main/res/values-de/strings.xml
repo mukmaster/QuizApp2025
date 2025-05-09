@@ -7,6 +7,16 @@
     <string name="str_question4">Frage 4</string>
     <string name="str_question5">Frage 5</string>
     <string name="str_question6">Frage 6</string>
-    <string name="str_correct_answers">Richtige Antworten</string>
+    <string name="str_correct_answers">Punktestand:</string>
     <string name="str_test_your_knowledge">Teste dein Wissen</string>
+    <string name="title_activity_q1">Frage 1</string>
+    <string name="q1_text">Wie lautet der Name der Android-Version 4.1?</string>
+    <string name="q1_continue">Jetzt antworten</string>
+    <string name="backbtn_string">Nächste Frage</string>
+    <string name="positive_feedback1">Super, das war richtig!</string>
+    <string name="negative_feedback1">Leider falsch.</string>
+    <string name="positive_feedback2">Du bist ein Checker!</string>
+    <string name="negative_feedback2">Das war leider nix.</string>
+    <string name="positive_score">Du bekommst # Punkt(e).</string>
+    <string name="negative_score">Diesmal 0 Punkte.</string>
 </resources>

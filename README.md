@@ -22,3 +22,9 @@ Q1Activity: Radiobuttons und CheckIn-Button noch ohne Funktion
 ## Commit 6: Auswertelogik für Q1Activity erstellt
 Feedback-Activity zur Anzeige des Feedbacks erstellt
 Q1Activity wertet RadioButtons aus und verwendet Helper für das Feedback
+
+## Commit 7: Feedback verbessert
+Jetzt zwei zufällige Feedbacks
+Platzhalter # für Punkte im Feedbackstring
+Punktestand wird jetzt global in Helper verwaltet und in MainActivity richtig angezeigt
+Lokalisierung (deutsch) vervollständigt
