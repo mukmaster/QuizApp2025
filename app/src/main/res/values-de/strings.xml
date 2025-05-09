@@ -28,4 +28,6 @@
     <string name="q4_text">Klicke im Bild auf das Overflow-Menü!</string>
     <string name="title_activity_q5">Frage 5</string>
     <string name="q5_text">Welche API-Version hat Android 15 (Vanilla Ice Cream)</string>
+    <string name="title_activity_q6">Frage 6</string>
+    <string name="q6_text">Wähle den Namen der Android Version 3.0 aus der Liste</string>
 </resources>

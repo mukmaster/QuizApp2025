@@ -46,4 +46,7 @@
     <string name="title_activity_q5">Question 5</string>
     <string name="q5_text">Which API Version has Android 15 (Vanilla Ice Cream)?Lollipop?</string>
 
+    <string name="title_activity_q6">Question 6</string>
+    <string name="q6_text">Pick the name of Android Version 3.0</string>
+
 </resources>
