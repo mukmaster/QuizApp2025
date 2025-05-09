@@ -40,5 +40,8 @@
     <string name="q3_answer5" translatable="false">4.4</string>
     <string name="q3_continue">Check in</string>
 
+    <string name="title_activity_q4">Question 4</string>
+    <string name="q4_text">Click the Overflow Menu in this screenshot!</string>
+
 
 </resources>

@@ -24,4 +24,6 @@
     <string name="title_activity_q3">Frage 3</string>
     <string name="q3_text">Welche Androidversionen tragen nicht den Namen \"Jelly Bean\"?</string>
     <string name="q3_continue">Bitte antworten</string>
+    <string name="title_activity_q4">Frage 4</string>
+    <string name="q4_text">Klicke im Bild auf das Overflow-Menü!</string>
 </resources>

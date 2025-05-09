@@ -35,3 +35,7 @@
 + Q2Activity arbeitet mit einer Texteingabe (Constraint-Layout)
 + Q3Activity mit einer Checkbox (Constraint- + Vertical LinearLayout für die Kästchen)
 
+## Commit 9: Q4Activity (Bildfrage) erstellt
++ Q4Activity enthält eine Bildressource (Drawable): screenshot.png
++ Außerdem wird in Q4Activity ein onTouchListener als Eventhandler definiert
+
