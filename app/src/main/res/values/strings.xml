@@ -27,4 +27,18 @@
     <string name="positive_score">You just earned # point(s).</string>
     <string name="negative_score">No point this time.</string>
 
+    <string name="title_activity_q2">Question 2</string>
+    <string name="q2_text">What is the name for Android Version 13?</string>
+    <string name="q2_right_answer" translatable="false">Tiramisu</string>
+
+    <string name="title_activity_q3">Question 3</string>
+    <string name="q3_text">Which Android versions do not belong to Jelly Bean?</string>
+    <string name="q3_answer1" translatable="false">4.0</string>
+    <string name="q3_answer2" translatable="false">4.1</string>
+    <string name="q3_answer3" translatable="false">4.2</string>
+    <string name="q3_answer4" translatable="false">4.3</string>
+    <string name="q3_answer5" translatable="false">4.4</string>
+    <string name="q3_continue">Check in</string>
+
+
 </resources>

@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="styleQTitel" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

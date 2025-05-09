@@ -19,4 +19,9 @@
     <string name="negative_feedback2">Das war leider nix.</string>
     <string name="positive_score">Du bekommst # Punkt(e).</string>
     <string name="negative_score">Diesmal 0 Punkte.</string>
+    <string name="title_activity_q2">Frage 2</string>
+    <string name="q2_text">Wie heißt die Android Version 13?</string>
+    <string name="title_activity_q3">Frage 3</string>
+    <string name="q3_text">Welche Androidversionen tragen nicht den Namen \"Jelly Bean\"?</string>
+    <string name="q3_continue">Bitte antworten</string>
 </resources>

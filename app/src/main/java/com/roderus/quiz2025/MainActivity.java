@@ -38,9 +38,24 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(scoreString);
     }
 
-    // Eventhandler für Question1-Button
-    public void btn1_clicked(View v) {
-        Intent intent = new Intent(this, Q1Activity.class);
+    // Eventhandler für alle Question-Buttons
+    public void btn_clicked(View v) {
+
+        Class activityClass;
+        int buttonId = v.getId();
+
+        if (buttonId == R.id.btn_question1)
+            activityClass = Q1Activity.class;
+        else if (buttonId == R.id.btn_question2)
+            activityClass = Q2Activity.class;
+        else if (buttonId == R.id.btn_question3)
+            activityClass = Q3Activity.class;
+        else
+            // Es wurde ein nicht belegter Button angeklickt -> nicht reagieren
+            return;
+
+        // Die gewünschte Frage-Activity wird aufgerufen
+        Intent intent = new Intent(this, activityClass);
         startActivity(intent);
     }
 

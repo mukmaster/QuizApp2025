@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Q3Activity">
+
+    <TextView
+        android:id="@+id/q3question"
+        android:layout_width="361dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/q3_text"
+        android:textAppearance="@style/styleQTitel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="btn_clicked"
+        android:text="@string/q3_continue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q3question">
+
+        <CheckBox
+            android:id="@+id/q3check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q3question"
+            android:layout_alignLeft="@+id/q3question"
+            android:text="@string/q3_answer1" />
+
+        <CheckBox
+            android:id="@+id/q3check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q3check1"
+            android:layout_alignLeft="@+id/q3question"
+            android:text="@string/q3_answer2" />
+
+        <CheckBox
+            android:id="@+id/q3check3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q3check2"
+            android:layout_alignLeft="@+id/q3question"
+            android:text="@string/q3_answer3" />
+
+        <CheckBox
+            android:id="@+id/q3check4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q3check3"
+            android:layout_alignLeft="@+id/q3question"
+            android:text="@string/q3_answer4" />
+
+        <CheckBox
+            android:id="@+id/q3check5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q3check4"
+            android:layout_alignLeft="@+id/q3question"
+            android:text="@string/q3_answer5" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

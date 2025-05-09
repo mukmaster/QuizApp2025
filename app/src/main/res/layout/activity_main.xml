@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:lineSpacingExtra="12sp"
-            android:onClick="btn1_clicked"
+            android:onClick="btn_clicked"
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:text="@string/str_question1" />
@@ -49,6 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:lineSpacingExtra="12sp"
+            android:onClick="btn_clicked"
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:text="@string/str_question2" />
@@ -59,6 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:lineSpacingExtra="12sp"
+            android:onClick="btn_clicked"
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:text="@string/str_question3" />
@@ -69,6 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:lineSpacingExtra="12sp"
+            android:onClick="btn_clicked"
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:text="@string/str_question4" />
@@ -79,6 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:lineSpacingExtra="12sp"
+            android:onClick="btn_clicked"
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:text="@string/str_question5" />
@@ -89,6 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:lineSpacingExtra="12sp"
+            android:onClick="btn_clicked"
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:text="@string/str_question6" />
