@@ -43,5 +43,7 @@
     <string name="title_activity_q4">Question 4</string>
     <string name="q4_text">Click the Overflow Menu in this screenshot!</string>
 
+    <string name="title_activity_q5">Question 5</string>
+    <string name="q5_text">Which API Version has Android 15 (Vanilla Ice Cream)?Lollipop?</string>
 
 </resources>

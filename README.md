@@ -39,3 +39,5 @@
 + Q4Activity enthält eine Bildressource (Drawable): screenshot.png
 + Außerdem wird in Q4Activity ein onTouchListener als Eventhandler definiert
 
+## Commit 10: Frage 5 (NumberPicker)
++ Q5Activity erhält einen "NumberPicker" (Zahlenrad), das in onCreate initialisiert wird

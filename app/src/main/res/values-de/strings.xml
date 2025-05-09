@@ -26,4 +26,6 @@
     <string name="q3_continue">Bitte antworten</string>
     <string name="title_activity_q4">Frage 4</string>
     <string name="q4_text">Klicke im Bild auf das Overflow-Menü!</string>
+    <string name="title_activity_q5">Frage 5</string>
+    <string name="q5_text">Welche API-Version hat Android 15 (Vanilla Ice Cream)</string>
 </resources>
